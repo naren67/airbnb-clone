@@ -1,0 +1,77 @@
+
+.footer{
+          margin-top: 60px;
+          margin-bottom: 90px;
+}
+
+.footer__social{
+          display: flex;
+}
+
+.footer__copyAndSocial{
+          display: flex;
+          width: 100%;
+          flex-direction: row;
+          justify-content: space-around;
+}
+
+.footer__btn button{
+          padding: 15px 30px;
+          border-radius: 10px;
+          outline: none;
+          cursor: pointer;
+          background: black;
+          color: white;
+          font-size: 16px;
+          font-weight: 500px;
+}
+
+.footer__btn button:hover{
+          background: white;
+          color: black;
+}
+
+
+.footer__info{
+          margin-left: 100px;
+          margin-bottom: 50px;
+}
+
+.footer__btn{
+          margin-left: 100px;
+          margin-bottom: 20px;
+}
+
+.footer__place{
+          margin-left: 100px;
+          margin-bottom: 50px;
+}
+
+.footer__copyAndSocial{
+          margin-top: 50px;
+          
+}
+
+.footer__line{
+          border-top: 2px solid gainsboro;
+          width: 100%;
+}
+
+.facebook_icon{
+          color: rgb(245, 7, 47);
+          margin-right: 20px;
+}
+
+.instagram_icon{
+          color: rgb(245, 7, 47);
+          margin-right: 20px;
+}
+
+.twitter_icon{
+          color: rgb(245, 7, 47);
+          margin-right: 20px;
+}
+
+.facebook_icon:hover, .instagram_icon:hover, .twitter_icon:hover{
+          color: rgb(0, 0, 0);
+}

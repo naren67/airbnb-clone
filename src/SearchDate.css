@@ -1,0 +1,59 @@
+.searchDate{
+          position: absolute;
+          top: 32px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          left: 15%;
+}
+
+.extraOptions{
+          background: rgb(255, 255, 255);
+          height: 48vh;
+          background:rgba(220, 220, 220, 0.904);
+}
+
+.totalPeople{
+          display: flex;
+          margin-right: 100px;
+          margin-left: 100px;
+          margin-top: 10px;
+          border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.totalPeople p{
+          color: rgba(0, 0, 255, 0.734);
+          font-weight: 500;
+          font-size: 13px;
+          margin-right: 100px;
+          
+}
+
+.search__inputField{
+          display: grid;
+          place-items: center;
+          margin-top: 100px;
+}
+
+.search__inputField input{
+          width: 260px;
+          margin-bottom: 20px;
+          height: 30px;
+          border-radius: 5px;
+          outline: none;
+}
+
+.proceedButton button{
+          padding: 10px 30px;
+          background: rgb(228, 124, 141);
+          outline: none;
+          cursor: pointer;
+          border-radius: 5px;
+          font-size: 15px;
+          color: white;
+}
+
+.proceedButton button:hover{
+          background: white;
+          color:rgb(98, 189, 235);
+}

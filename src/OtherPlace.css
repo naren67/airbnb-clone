@@ -1,0 +1,21 @@
+.small_card{
+          margin-right:200px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+}
+
+.small_card_area{
+          margin-left: 10px;
+}
+
+.otherLocations__dashboard{
+    transition: 0.5s ease-in-out;
+}
+
+.otherLocations__dashboard:hover{
+        /* color: rgb(169, 164, 164); */
+        color: rgb(245, 7, 47);
+        transform: rotate(20deg);
+}

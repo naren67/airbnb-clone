@@ -1,0 +1,33 @@
+.home__cardList{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+}
+
+.home__cardHeader{
+          margin-left: 120px;
+          margin-top: 70px;
+          margin-bottom: 25px;
+}
+
+.home__ratings{
+          display: flex;
+          
+}
+
+.home__info{
+         max-width: 360px;
+          justify-content: center;
+          align-items: center;
+          flex: 0.8;
+          margin-left: 120px;
+          margin-top: 60px;
+          margin-bottom: 60px;
+}
+
+.home__ratings{
+          margin-top: 100px;
+          margin-bottom: 100px;
+          border-top: 2px solid gainsboro;
+          border-bottom: 2px solid gainsboro;
+}

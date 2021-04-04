@@ -1,0 +1,48 @@
+.explored__pic img{
+          width: 310px;
+          height: 190px;
+          border-radius: 10px;
+}
+
+.explore__rating{
+          display: flex;
+          align-items: center;
+          margin-top: 6px;
+}
+
+.explored__miniCard{
+          margin-left: 160px;
+          margin-top: 60px;
+          box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+          border-radius: 10px;
+          background: rgba(208, 206, 205, 0.258);
+          cursor: pointer;
+          transition: 1s ease-in-out;
+}
+
+.explored__miniCard:hover{
+          transform: scale(1.1);
+         
+}
+
+.explored__pic img:hover{
+          opacity: 0.8;
+}
+
+.explore__info{
+          margin-left: 10px;
+          padding-bottom: 10px;
+          width: 270px;
+}
+
+.explore__price{
+          margin-bottom: 10px;
+          font-weight: 500;
+}
+
+.explored__star{
+          color: red;
+          margin-right: 10px;
+}
+
+
